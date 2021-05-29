@@ -1,0 +1,13 @@
+**/.git
+
+**/.svn
+**/.hg
+**/CVS
+**/.DS_Store
+  
+
+**/*.o
+
+**/*.out
+
+**/a.out.dSYM
