@@ -11,3 +11,5 @@
 **/*.out
 
 **/a.out.dSYM
+
+.vscode/

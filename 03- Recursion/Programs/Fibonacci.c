@@ -18,7 +18,7 @@ int fib(int n)
 
     return s;
 }
-//Don't use this method , it's an example of ecessive recursion
+//Don't use this method , it's an example of excessive recursion
 //Time complexity is O(2^n)
 //This method sucks!!!
 
@@ -30,7 +30,7 @@ int rfib(int n)
 }
 
 //Using Memoization method to reduce time
-//Holy shit, i can't beleive it reduces the time form O(2^n) to O(n)
+//Holy shit, i can't believe it reduces the time form O(2^n) to O(n)
 //Store all the function call in array
 
 

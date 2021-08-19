@@ -1,6 +1,4 @@
-/* Name- Sachin Kumar
-    Roll- E59
-  */
+
 #include<stdio.h>
 int stringlength(char s[])
 {

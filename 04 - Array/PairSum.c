@@ -88,7 +88,7 @@ int main()
     int k = 10; //Sum to be found
     int max = Max(arr);
     int *H;
-    //Dynamically creating an array of length max and instilaise each element to 0
+    //Dynamically creating an array of length max and initialise each element to 0
     H = (int *)calloc(max + 1, sizeof(int));
     printf("\nPair of Sum in an Unsorted List\n");
     pairSum1(arr, H, max + 1, k);

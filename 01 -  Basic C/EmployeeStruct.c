@@ -20,7 +20,7 @@ struct Employee
         char month[30];
         int year;
     } doj;
-    struct sallery
+    struct salary
     {
         int basic;
         int DA;
@@ -46,8 +46,8 @@ void ReadEmpData(struct Employee *Emp)
     scanf("%s", Emp->doj.month);
     printf("Enter Year : ");
     scanf("%d", &Emp->doj.year);
-    printf("Enter Sallery Details \n");
-    printf("Enter Basic Sallery : ");
+    printf("Enter Salary Details \n");
+    printf("Enter Basic Salary : ");
     scanf("%d", &Emp->s.basic);
     printf("Enter HRA : ");
     scanf("%d", &Emp->s.HRA);
@@ -62,13 +62,13 @@ void PrintEmpdata(struct Employee *Emp)
     printf("\nEmployee Department : %s", Emp->Emp_Dept);
     printf("\nEmployee Age : %d", Emp->Emp_Age);
     printf("\nDate Of Joining : %d/%s/%d", Emp->doj.date, Emp->doj.month, Emp->doj.year);
-    printf("\nSallery Details \nBasic Sallery : %d\nHRA : %d\nDA : %d\n", Emp->s.basic, Emp->s.HRA, Emp->s.DA);
+    printf("\nSalary Details \nBasic Salary : %d\nHRA : %d\nDA : %d\n", Emp->s.basic, Emp->s.HRA, Emp->s.DA);
 }
 
 int main()
 {
     struct Employee *Emp;
-    ReadEmpData(Emp); //We are pssing Structure as call by address so that it is accesible by all function
+    ReadEmpData(Emp); //We are passing Structure as call by address so that it is accesible by all function
     PrintEmpdata(Emp);
     return 0;
 }

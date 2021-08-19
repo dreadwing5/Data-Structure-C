@@ -1,10 +1,3 @@
-/* Name - Sachin Kumar
-    Roll - E59
-    USN - 1CR19IS125
-    Problem Statement: Implement structures to read, write,
-    compute average marks and the students scoring above and
-    below the average marks for a class of N students.
-  */
 #include<stdio.h>
 struct student
 {

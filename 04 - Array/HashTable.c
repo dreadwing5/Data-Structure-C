@@ -65,7 +65,7 @@ int main()
     int min = Min(arr);
     int max = Max(arr);
     int *H;
-    //Dynamically creating an array of length max and instilaise each element to 0
+    //Dynamically creating an array of length max and initialise each element to 0
     H = (int *)calloc(max + 1, sizeof(int));
     printf("\n");
     missingElements(arr, H, min, max);

@@ -88,7 +88,7 @@ void ReverseArray(struct Array *arr)
 int main()
 {
 
-    struct Array *arr; //Structure Declerartion
+    struct Array *arr; //Structure Declaration
     int choice;
     printf("Enter The Size Of Array: ");
     scanf("%d", &arr->sizeOfArray);
