@@ -22,8 +22,7 @@ int continueOperation(); //Function for taking user input for continution of the
 void main()
 {
 
-    int sizeOfArray, a[sizeOfArray], choice;        //Scope : Inside main
-    printf("@Author : Sachin Kumar(1CR19IS125)\n"); //Author of the program
+    int sizeOfArray, a[sizeOfArray], choice;        
     printf("---------------------------------------\n");
     printf("Enter the Size of Array : ");
     scanf("%d", &sizeOfArray);

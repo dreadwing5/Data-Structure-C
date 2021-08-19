@@ -1,3 +1,5 @@
+//This program is simpler version of polynomial evaluation.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -120,5 +122,5 @@ int main()
     printf("\nThe given polynomial is: ");
     display();
     res = evaluate_polynomial();
-    printf("\nThe result after evaluation is: %d", res);
+    printf("\nThe result after evaluation is: %d\n", res);
 }
